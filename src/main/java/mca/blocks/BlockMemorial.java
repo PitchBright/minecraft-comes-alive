@@ -114,7 +114,6 @@ public class BlockMemorial extends BlockContainer
     public boolean onBlockEventReceived(World worldIn, BlockPos pos, IBlockState state, int eventID, int eventParam) 
     {
         super.onBlockEventReceived(worldIn, pos, state, eventID, eventParam);
-        System.out.println("A");
         TileEntity tileentity = worldIn.getTileEntity(pos);
         return tileentity == null ? false : tileentity.receiveClientEvent(eventID, eventParam);
     }
