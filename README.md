@@ -1,3 +1,5 @@
+**The 1.8.9 branch of MCA is no longer supported. Consider updating to receive the latest features and fixes.**
+
 Minecraft Comes Alive
 =====================
 Minecraft Comes Alive (MCA) is a Minecraft mod that replaces Minecraft's Testificates with humans. It works in single player, LAN, and SMP.
